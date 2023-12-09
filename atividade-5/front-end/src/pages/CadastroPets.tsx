@@ -128,8 +128,8 @@ const CadastroPets: React.FC = () => {
                     <label htmlFor="raca" className="form-label">Gênero</label>
                     <select onChange={ (e) => setInfo({ ...info, genero: e.currentTarget.value }) } className="form-select">
                         <option selected>Selecione um gênero</option>
-                        <option value="Muié">Muié</option>
-                        <option value="Homi">Homi</option>
+                        <option value="Muié">Fêmea</option>
+                        <option value="Homi">Macho</option>
                     </select>
                     <div id="generoHelp" className="form-text">Selecione o gênero do Pet.</div>
                 </div>

@@ -28,14 +28,14 @@ class Navbar extends Component {
                         <div className="offcanvas-body">
                         <div className="list-group list-group-flush">
                             <div className="fw-bold my-2" style={{ fontSize: '20px' }}>Listagem</div>
-                            <Link to={'/'} className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}>clientes</Link>
+                            <Link to={'/'} className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}>Clientes</Link>
                             <Link to={ '/servico' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Serviços </Link>
                             <Link to={ '/produto' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Produtos </Link>
                             <div className="list-group list-group-flush my-4">
                                 <div className="fw-bold my-2" style={{ fontSize: '20px' }}>Cadastro</div>
-                                <Link to={ '/cadastro/cliente' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> cliente </Link>
-                                <Link to={ '/cadastro/pet' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> pet </Link>
-                                <Link to={ '/cadastro/servico' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> serviços </Link>
+                                <Link to={ '/cadastro/cliente' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Cliente </Link>
+                                <Link to={ '/cadastro/pet' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Pet </Link>
+                                <Link to={ '/cadastro/servico' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Serviços </Link>
                                 <Link to={ '/cadastro/produto' } className="list-group-item bg-dark text-white py-1 border-dark " style={{ fontSize: '16px', width: 'fit-content', display: 'inline-block', padding: 0 }}> Produtos </Link>
                             </div>
                             </div>
